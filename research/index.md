@@ -7,7 +7,7 @@ projects:
     summary: This will never work.
 ---
 
-Our research is awesome.
+Here we provide an insight in some of our research projects.
 
 ### An Exciting project
 Read about it [here][project].
