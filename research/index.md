@@ -13,7 +13,8 @@ projects:
 Here we provide an insight in some of our research projects.
 
 ### An Exciting project
-Read about it [here][project] and [here][lowrank].
+  * [everything on BN][project]
+  * [low rank factorization][lowrank]
 
 [project]: project/index.html
 [lowrank]: lowrank/index.html
