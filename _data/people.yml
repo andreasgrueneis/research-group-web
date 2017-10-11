@@ -3,15 +3,19 @@ profag:
     webpage: "https://scholar.google.at/citations?user=Lw4WpNIAAAAJ&hl=en"
     role: faculty
     email: andreas.grueneis@tuwien.ac.at
+    img-src: "https://www.sfb-vicom.at/uploads/tx_univie_personal/Portrait_Grueneis_Andreas_02.JPG"
 
 fh:
     display_name: "Dr. Felix Hummel"
     role: postdoc
+    img-src: "https://multimediatechnology.at/wp-content/uploads/mmt_hummel_felix_10091.jpg"
 
 tt:
     display_name: "Theodoros Tsatsoulis"
     role: grad
+    img-src: "http://www.itp.tuwien.ac.at/images/thumb/0/07/Tsatsoulis_Theodoros_2zu3.jpg/90px-Tsatsoulis_Theodoros_2zu3.jpg"
 
 ag:
     display_name: "Alejandro Gallo"
     role: grad
+    img-src: "http://www.itp.tuwien.ac.at/images/thumb/2/2f/Gallo_Alejandro_2zu3.jpg/90px-Gallo_Alejandro_2zu3.jpg"
