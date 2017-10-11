@@ -19,6 +19,9 @@ _site/index.html: $(wildcard *.html) _includes/pubs.html _config.yml \
 clean:
 	$(RM) -r _site _includes/pubs.html
 
+serve:
+	jekyll serve -w
+
 HOST := yourwebpage.com
 PATHSVR := www/
 deploy: clean all
