@@ -5,26 +5,35 @@ title: People
 
 {% for role in site.roles %}
   <h3>{{ role.name }}</h3>
-  <dl class="people">
-  {% for item in site.data.people %}
-    {% assign person = item[1] %}
-    {% if person.role == role.key %}
-      <dt class="person">
-        <img src="{{person.img-src}}" style="width:304px;height:228px;" class="img-circle" alt=""/>
-        {% if person.webpage %}
-        <a href="{{ person.webpage |escape }}">
+    <ul class="list-group">
+      {% for item in site.data.people %}
+        {% assign person = item[1] %}
+        {% if person.role == role.key %}
+        <li id='{{person.id}}' class="list-group-item">
+          <h4 class="list-group-item-heading">
+            {{ person.display_name }}
+            <div class="pull-right">
+              {% if person.google-scholar %}
+              <a href="{{ person.google-scholar | escape }}">
+                <span class="fa fa-lg fa-google">  </span>
+              </a>
+              {% endif %}
+              {% if person.github %}
+              <a href="{{ person.github | escape }}">
+                <span class="fa fa-lg fa-github">  </span>
+              </a>
+              {% endif %}
+            </div>
+          </h4>
+          <div class="row">
+            <div class="col-xs-9 col-sm-3 pull-right">
+              <img src="{{person.img-src}}"
+              style="height:120px;"
+              class="img-circle" alt=""/>
+            </div>
+          </div>
+        </li>
         {% endif %}
-          {{ person.display_name }}
-        {% if person.webpage %}
-        </a>
-        {% endif %}
-      </dt>
-      <dd>
-        {% if person.bio %}
-          {{ person.bio | markdownify }}
-        {% endif %}
-      </dd>
-    {% endif %}
-  {% endfor %}
-  </dl>
+      {% endfor %}
+    </ul>
 {% endfor %}
