@@ -7,6 +7,10 @@ To get the site running do the following:
   sudo gem install jekyll
   sudo pip2 install pybtex
 
+First initiallize git submodules (need to be done only once)
+
+  git submodule update -i
+
 and then just make
 
   make
