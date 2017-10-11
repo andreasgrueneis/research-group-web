@@ -5,6 +5,7 @@
         <title>{{ site.name }}: {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="{{ site.base }}/css/bootstrap.min.css" rel="stylesheet">
+
         <link href="{{ site.base }}/css/group.css" rel="stylesheet">
         <link rel="alternate" type="application/atom+xml" title="Atom"
             href="{{ site.base }}/blog/blog.xml">
@@ -29,8 +30,6 @@
             </a>
           </div>
 
-          {% comment %}Liquid is sort of terrible! I think "!= true" is the
-          only way to do negation?{% endcomment %}
           {% if page.notitle != true %}
           <h2>{{ page.title }}</h2>
           {% endif %}
@@ -54,5 +53,12 @@
         <!-- Support retina images. -->
         <script type="text/javascript"
             src="{{ site.base }}/js/srcset-polyfill.js"></script>
+        <script type="text/javascript"
+                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+          });
+        </script>
     </body>
 </html>
