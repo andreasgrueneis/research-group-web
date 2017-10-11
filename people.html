@@ -10,6 +10,7 @@ title: People
     {% assign person = item[1] %}
     {% if person.role == role.key %}
       <dt class="person">
+        <img src="{{person.img-src}}" class="img-circle" alt=""/>
         {% if person.webpage %}
         <a href="{{ person.webpage |escape }}">
         {% endif %}
