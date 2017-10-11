@@ -15,6 +15,8 @@ Here we provide an insight in some of our research projects.
 ### An Exciting project
   * [everything on BN][project]
   * [low rank factorization][lowrank]
+  * [Excited states in solids][eom]
 
 [project]: project/index.html
 [lowrank]: lowrank/index.html
+[eom]: eom/index.html
