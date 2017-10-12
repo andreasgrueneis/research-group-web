@@ -23,6 +23,11 @@ title: People
                 <span class="fa fa-lg fa-github">  </span>
               </a>
               {% endif %}
+              {% if person.email %}
+              <a href="{{ person.email | escape }}">
+                <span class="fa fa-lg fa-envelope">  </span>
+              </a>
+              {% endif %}
             </div>
           </h4>
           <div class="row">
