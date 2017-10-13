@@ -58,7 +58,7 @@ $$
 $$
 
 Of course since $ \hat{T} $ is not an hermitian operator, also
-$ \bar{H} $ is hermitian, which means that left and right eigenvectors
+$ \bar{H} $ is not hermitian, which means that left and right eigenvectors
 must be obtained, which even further increases the computational cost of the
 problem.
 

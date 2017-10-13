@@ -20,44 +20,51 @@ notitle: true
     physics and theoretical quantum chemistry.
 
 
-    <br>
-    <br>
-    We have open positions!
-    <br>
-    If you are interested in our work and want to join us please email
-    <a href="mailto:andreas.grueneis@tuwien.ac.at">Andreas Grüneis</a>
   </p>
 </div>
 
-    We gratefully acknowledge support by<br>
+
+<div class='alert alert-info'>
+  <h3><span class="fa fa-info-circle"></span> News</h3>
+  <ul class="news list-unstyled">
+  {% for post in site.posts limit: site.front_page_news %}
+      {% if post.shortnews %}
+          <li class="shortnews">
+              <span class="date">{{ post.date | date_to_long_string }}</span>
+              {{ post.content }}
+          </li>
+      {% else %}
+          <li class="bloglink">
+              <span class="date">{{ post.date | date_to_long_string }}</span>
+              <a href="{{ post.url }}">&raquo; {{ post.title }}</a>
+          </li>
+      {% endif %}
+  {% endfor %}
+  </ul>
+  {% assign numposts = site.posts | size %}
+  {% if numposts >= site.front_page_news %}
+  <p><a href="{{ site.base }}/blog/">Older posts&hellip;</a></p>
+  {% endif %}
+</div>
+
+
+<p>We gratefully acknowledge support by</p>
+<div class="container row">
+  <div class="col-md-4 col-xs-12">
     <a href="https://tuwien.ac.at" target="_blank">
       <img src="img/tuwien.png" alt="TU Wien logo" style="width:264px;height:101px;">
     </a>
+  </div>
+  <div class="col-md-4 col-xs-12">
     <a href="https://www.fkf.mpg.de" target="_blank">
       <img src="img/mpg.png" alt="MPG logo" style="width:170px;height:138px;">
     </a>
+  </div>
+  <div class="col-md-4 col-xs-12">
     <a href="https://erc.europa.eu" target="_blank">
       <img src="img/erc.png" alt="ERC logo" style="width:114px;height:113px;">
     </a>
+  </div>
+</div>
 
 
-<h2>News</h2>
-<ul class="news list-unstyled">
-{% for post in site.posts limit: site.front_page_news %}
-    {% if post.shortnews %}
-        <li class="shortnews">
-            <span class="date">{{ post.date | date_to_long_string }}</span>
-            {{ post.content }}
-        </li>
-    {% else %}
-        <li class="bloglink">
-            <span class="date">{{ post.date | date_to_long_string }}</span>
-            <a href="{{ post.url }}">&raquo; {{ post.title }}</a>
-        </li>
-    {% endif %}
-{% endfor %}
-</ul>
-{% assign numposts = site.posts | size %}
-{% if numposts >= site.front_page_news %}
-<p><a href="{{ site.base }}/blog/">Older posts&hellip;</a></p>
-{% endif %}
