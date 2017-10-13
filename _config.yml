@@ -12,7 +12,7 @@ permalink: /blog/:year/:month/:day/:title.html
 
 projects:
   eom: {url: '/research/eom/', title: 'Excited states'}
-  h2oathbn: {url: '/research/h2oathbn/', title: '$H_2O$ on $BN$'}
+  surfaces: {url: '/research/surfaces/', title: 'Molecular adsorption on surfaces'}
   lowrank: {url: '/research/lowrank/', title: 'Low Rank factorization'}
 
 # Number of news stories on the front page.

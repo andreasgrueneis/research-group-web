@@ -8,10 +8,10 @@ Here you can find a selection of current and past projects that
 could serve as a basis for further diploma or PhD projects.
 
 
-  * [Water on h-BN][h2oathbn]
+  * [Molecular adsorption on surfaces][surfaces]
   * [Low rank factorization][lowrank]
   * [Excited states in solids][eom]
 
-[h2oathbn]: h2oathbn/index.html
+[surfaces]: surfaces/index.html
 [lowrank]: lowrank/index.html
 [eom]: eom/index.html
