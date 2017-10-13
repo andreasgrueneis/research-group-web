@@ -22,7 +22,7 @@
   google-scholar: "https://scholar.google.com/citations?hl=en&user=4USdy4AAAAAJ"
   github: "https://github.com/tsatsoulis"
   projects:
-    - h2oathbn
+    - surfaces
 
 - id: "ag"
   display_name: "Alejandro Gallo"
