@@ -29,6 +29,16 @@ title: People
     </h4>
     <p>
       {{ person.role | capitalize }}
+      <h5>Projects:</h5>
+      <ul>
+      {% for project in person.projects %}
+        <li>
+        <a href="{{ site.projects[project].url }}" target="_blank">
+          {{ site.projects[project].title }}
+        </a>
+        </li>
+      {% endfor %}
+      </ul>
     </p>
     <div class="row">
       <div class="col-xs-12 col-sm-3 pull-right">

@@ -11,6 +11,8 @@
   role: Postdoc
   email: "mailto:f.hummel@tuwien.ac.at"
   img-src: "https://multimediatechnology.at/wp-content/uploads/mmt_hummel_felix_10091.jpg"
+  projects:
+    - lowrank
 
 - id: "tt"
   display_name: "Theodoros Tsatsoulis"
@@ -19,6 +21,8 @@
   email: "mailto:t.tsatsoulis@fkf.mpg.de"
   google-scholar: "https://scholar.google.com/citations?hl=en&user=4USdy4AAAAAJ"
   github: "https://github.com/tsatsoulis"
+  projects:
+    - h2oathbn
 
 - id: "ag"
   display_name: "Alejandro Gallo"
@@ -26,3 +30,5 @@
   github: "https://github.com/alejandrogallo"
   email: "mailto:a.gallo@fkf.mpg.de"
   img-src: "http://www.itp.tuwien.ac.at/images/thumb/2/2f/Gallo_Alejandro_2zu3.jpg/90px-Gallo_Alejandro_2zu3.jpg"
+  projects:
+    - eom
