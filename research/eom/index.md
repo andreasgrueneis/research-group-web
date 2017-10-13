@@ -32,10 +32,36 @@ The operator $ \hat{R} ^{(i)} $ is very similar to the $ \hat{T} $ cluster
 operator,
 
 $$
+\hat{T}        = t _{0}
+               + t ^{a} _{i} \hat{c} ^{\dagger} _{a} \hat{c} _{i}
+               + t ^{ab} _{ij} \hat{c} ^{\dagger} _{a} \hat{c} ^{\dagger} _{b}
+                      \hat{c} _{i} \hat{c} _{j}
+               + \ldots
+$$
+
+$$
 \hat{R} ^{(i)} = r _{0}
                + r ^{a} _{i} \hat{c} ^{\dagger} _{a} \hat{c} _{i}
                + r ^{ab} _{ij} \hat{c} ^{\dagger} _{a} \hat{c} ^{\dagger} _{b}
                       \hat{c} _{i} \hat{c} _{j}
                + \ldots
 $$
+
+with $ r ^{ab\ldots} _{ij\ldots}$ being the amplitudes. These amplitudes are
+obtained by diagonalizing the similarity transformed Hamiltonian $ \bar{H} $:
+
+$$
+\bar{H} =
+\exp \left \{ -\hat{T} \right \}
+\hat{H}
+\exp \left \{ \hat{T} \right \} 
+$$
+
+Of course since $ \hat{T} $ is not an hermitian operator, also
+$ \bar{H} $ is hermitian, which means that left and right eigenvectors
+must be obtained, which even further increases the computational cost of the
+problem.
+
+Our task is to develop further this method and to propose more cost effective
+implementations to diagonalize $ \bar{H} $.
 
