@@ -1,31 +1,27 @@
-profag:
-    id: "profag"
-    display_name: "Prof. Andreas Grüneis"
-    google-scholar: "https://scholar.google.at/citations?user=Lw4WpNIAAAAJ&hl=en"
-    github: "https://github.com/andreasgrueneis"
-    role: faculty
-    email: "mailto:andreas.grueneis@tuwien.ac.at"
-    img-src: "http://itp.tuwien.ac.at/images/5/59/Gr%C3%BCneis_Andreas_2zu3.jpg"
+- id: "profag"
+  display_name: "Prof. Andreas Grüneis"
+  google-scholar: "https://scholar.google.at/citations?user=Lw4WpNIAAAAJ&hl=en"
+  github: "https://github.com/andreasgrueneis"
+  role: faculty
+  email: "mailto:andreas.grueneis@tuwien.ac.at"
+  img-src: "http://itp.tuwien.ac.at/images/5/59/Gr%C3%BCneis_Andreas_2zu3.jpg"
 
-fh:
-    id: "fh"
-    display_name: "Dr. Felix Hummel"
-    role: postdoc
-    email: "mailto:f.hummel@tuwien.ac.at"
-    img-src: "https://multimediatechnology.at/wp-content/uploads/mmt_hummel_felix_10091.jpg"
+- id: "fh"
+  display_name: "Dr. Felix Hummel"
+  role: postdoc
+  email: "mailto:f.hummel@tuwien.ac.at"
+  img-src: "https://multimediatechnology.at/wp-content/uploads/mmt_hummel_felix_10091.jpg"
 
-tt:
-    id: "tt"
-    display_name: "Theodoros Tsatsoulis"
-    role: grad
-    img-src: "/img/tsatsoulis.jpg"
-    email: "mailto:t.tsatsoulis@fkf.mpg.de"
-    github: "https://github.com/tsatsoulis"
+- id: "tt"
+  display_name: "Theodoros Tsatsoulis"
+  role: graduate student
+  img-src: "/img/tsatsoulis.jpg"
+  email: "mailto:t.tsatsoulis@fkf.mpg.de"
+  github: "https://github.com/tsatsoulis"
 
-ag:
-    id: "ag"
-    display_name: "Alejandro Gallo"
-    role: grad
-    github: "https://github.com/alejandrogallo"
-    email: "mailto:a.gallo@fkf.mpg.de"
-    img-src: "http://www.itp.tuwien.ac.at/images/thumb/2/2f/Gallo_Alejandro_2zu3.jpg/90px-Gallo_Alejandro_2zu3.jpg"
+- id: "ag"
+  display_name: "Alejandro Gallo"
+  role: graduate student
+  github: "https://github.com/alejandrogallo"
+  email: "mailto:a.gallo@fkf.mpg.de"
+  img-src: "http://www.itp.tuwien.ac.at/images/thumb/2/2f/Gallo_Alejandro_2zu3.jpg/90px-Gallo_Alejandro_2zu3.jpg"
