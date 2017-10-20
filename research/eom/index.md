@@ -35,7 +35,7 @@ $$
 \hat{T}        = t _{0}
                + t ^{a} _{i} \hat{c} ^{\dagger} _{a} \hat{c} _{i}
                + t ^{ab} _{ij} \hat{c} ^{\dagger} _{a} \hat{c} ^{\dagger} _{b}
-                      \hat{c} _{i} \hat{c} _{j}
+                      \hat{c} _{j} \hat{c} _{i}
                + \ldots
 $$
 
@@ -43,7 +43,7 @@ $$
 \hat{R} ^{(i)} = r _{0}
                + r ^{a} _{i} \hat{c} ^{\dagger} _{a} \hat{c} _{i}
                + r ^{ab} _{ij} \hat{c} ^{\dagger} _{a} \hat{c} ^{\dagger} _{b}
-                      \hat{c} _{i} \hat{c} _{j}
+                      \hat{c} _{j} \hat{c} _{i}
                + \ldots
 $$
 
